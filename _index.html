@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="_style.css">
+    <meta name="robots" content="noindex">
+    <meta name="description" content="Calculatrice sombre style néon rouge">
+</head>
+<body>
+    <main class="app">
+        <header class="app__header">
+            <h1>My first App⚔️📀</h1>
+            <h2>LOMPO'S WORLD</h2>
+        </header>
+
+        <section class="calc">
+            <div class="screen" id="screen">0</div>
+
+            <div class="keys">
+                <button class="btn btn--func" data-action="clear">C</button>
+                <button class="btn btn--func" data-action="back">⌫</button>
+                <button class="btn btn--func" data-action="percent">%</button>
+                <button class="btn btn--op" data-value="/">÷</button>
+
+                <button class="btn" data-value="7">7</button>
+                <button class="btn" data-value="8">8</button>
+                <button class="btn" data-value="9">9</button>
+                <button class="btn btn--op" data-value="*">×</button>
+
+                <button class="btn" data-value="4">4</button>
+                <button class="btn" data-value="5">5</button>
+                <button class="btn" data-value="6">6</button>
+                <button class="btn btn--op" data-value="-">−</button>
+
+                <button class="btn" data-value="1">1</button>
+                <button class="btn" data-value="2">2</button>
+                <button class="btn" data-value="3">3</button>
+                <button class="btn btn--op" data-value="+">+</button>
+
+                <button class="btn btn--big" data-value="0">0</button>
+                <button class="btn" data-value=".">.</button>
+                <button class="btn btn--eq" data-action="equals">=</button>
+
+                <button class="btn btn--func" data-action="sqrt">√</button>
+                <button class="btn btn--func" data-action="pow">xʸ</button>
+                <button class="btn btn--func" data-action="sin">sin</button>
+                <button class="btn btn--func" data-action="cos">cos</button>
+
+                <button class="btn btn--func" data-action="tan">tan</button>
+                <button class="btn btn--func" data-action="log">log</button>
+                <button class="btn" data-value="(">(</button>
+                <button class="btn" data-value=")">)</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="_script.js"></script>
+</body>
+</html>
